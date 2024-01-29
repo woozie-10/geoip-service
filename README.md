@@ -15,7 +15,7 @@ git clone https://github.com/woozie-10/geoip-service.git
 1. Make sure you have the GeoIP2-City.mmdb file, which contains the GeoIP database. This file should be placed in the root directory of the project.
 2. Start the server:
 ```bash
-	docker-compose up --build
+docker-compose up --build
 ```
 ## Sending Requests
 You can send requests to the server using gRPC or HTTP.
