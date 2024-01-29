@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./
+    restart: always
+    container_name: geoip-service
+    ports:
+      - "5052:5052"
